@@ -21,16 +21,12 @@
   <body>
     <header>
       <h1>
-        A Dream of the Future
+        File Metadata Miscroservice
       </h1>
     </header>
 
     <main ng-controller="fileAppCtrl">
-      <button>
-        Choose File
-      </button>
-      {{file}}
-      <a class="btn btn-primary" ng-href="/get-file-size">Submit</a>
+
       
       <form action="/upload" method="post" enctype="multipart/form-data">
         <label for="file">{{file}}</label>
