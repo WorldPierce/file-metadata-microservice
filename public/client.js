@@ -7,6 +7,6 @@
 var app = angular.module('fileApp', []);
 
 app.controller('fileAppCtrl', ($scope) => {
- $scope.file = ""
+ 
    
 })

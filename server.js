@@ -19,7 +19,7 @@ app.use(express.static('public'));
 
 
 app.post('/upload', upload.single('file'), (req,res)=>{
-  return res.json(req.file.size);
+  return res.json({size:req.file.size});
 })
 
 // http://expressjs.com/en/starter/basic-routing.html
